@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B0EF619D2A03E091009F272E /* RandomEventsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EF619C2A03E091009F272E /* RandomEventsApp.swift */; };
-		B0EF619F2A03E091009F272E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EF619E2A03E091009F272E /* ContentView.swift */; };
+		B0EF619F2A03E091009F272E /* REHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EF619E2A03E091009F272E /* REHomeView.swift */; };
 		B0EF61A12A03E093009F272E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0EF61A02A03E093009F272E /* Assets.xcassets */; };
 		B0EF61A42A03E093009F272E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0EF61A32A03E093009F272E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		B0EF61992A03E091009F272E /* RandomEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EF619C2A03E091009F272E /* RandomEventsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomEventsApp.swift; sourceTree = "<group>"; };
-		B0EF619E2A03E091009F272E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B0EF619E2A03E091009F272E /* REHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REHomeView.swift; sourceTree = "<group>"; };
 		B0EF61A02A03E093009F272E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0EF61A32A03E093009F272E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B0EF61A52A03E093009F272E /* RandomEvents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RandomEvents.entitlements; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				B0EF619C2A03E091009F272E /* RandomEventsApp.swift */,
-				B0EF619E2A03E091009F272E /* ContentView.swift */,
+				B0EF619E2A03E091009F272E /* REHomeView.swift */,
 				B0EF61A02A03E093009F272E /* Assets.xcassets */,
 				B0EF61A52A03E093009F272E /* RandomEvents.entitlements */,
 				B0EF61A22A03E093009F272E /* Preview Content */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0EF619F2A03E091009F272E /* ContentView.swift in Sources */,
+				B0EF619F2A03E091009F272E /* REHomeView.swift in Sources */,
 				B0EF619D2A03E091009F272E /* RandomEventsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
