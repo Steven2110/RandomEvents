@@ -11,6 +11,9 @@
 		B0EF619F2A03E091009F272E /* REHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EF619E2A03E091009F272E /* REHomeView.swift */; };
 		B0EF61A12A03E093009F272E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0EF61A02A03E093009F272E /* Assets.xcassets */; };
 		B0EF61A42A03E093009F272E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0EF61A32A03E093009F272E /* Preview Assets.xcassets */; };
+		B0EF61AC2A03E71E009F272E /* RETextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EF61AB2A03E71E009F272E /* RETextField.swift */; };
+		B0EF61AE2A03EEB5009F272E /* REEventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EF61AD2A03EEB5009F272E /* REEventModel.swift */; };
+		B0EF61B02A055733009F272E /* REEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EF61AF2A055733009F272E /* REEventViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		B0EF61A02A03E093009F272E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0EF61A32A03E093009F272E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B0EF61A52A03E093009F272E /* RandomEvents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RandomEvents.entitlements; sourceTree = "<group>"; };
+		B0EF61AB2A03E71E009F272E /* RETextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETextField.swift; sourceTree = "<group>"; };
+		B0EF61AD2A03EEB5009F272E /* REEventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REEventModel.swift; sourceTree = "<group>"; };
+		B0EF61AF2A055733009F272E /* REEventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REEventViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				B0EF619C2A03E091009F272E /* RandomEventsApp.swift */,
 				B0EF619E2A03E091009F272E /* REHomeView.swift */,
+				B0EF61AF2A055733009F272E /* REEventViewModel.swift */,
+				B0EF61AD2A03EEB5009F272E /* REEventModel.swift */,
+				B0EF61AB2A03E71E009F272E /* RETextField.swift */,
 				B0EF61A02A03E093009F272E /* Assets.xcassets */,
 				B0EF61A52A03E093009F272E /* RandomEvents.entitlements */,
 				B0EF61A22A03E093009F272E /* Preview Content */,
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0EF61AE2A03EEB5009F272E /* REEventModel.swift in Sources */,
 				B0EF619F2A03E091009F272E /* REHomeView.swift in Sources */,
 				B0EF619D2A03E091009F272E /* RandomEventsApp.swift in Sources */,
+				B0EF61B02A055733009F272E /* REEventViewModel.swift in Sources */,
+				B0EF61AC2A03E71E009F272E /* RETextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
